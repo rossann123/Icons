@@ -1,0 +1,124 @@
+.home{
+    font-family: "American Typewriter", serif;
+}
+.about{
+    font-family: Georgia, serif;
+}
+.contact{
+    font-family: Chalkboard, serif;
+}
+footer{
+    background-color: lightgray;
+    width:100%;
+    position: fixed;
+    margin-top: 10px;
+    text-align: center;
+    bottom: 0;
+    height:200px;
+
+}
+
+@media only screen and (min-width: 601px){
+    .navbar{
+        text-align: right;
+    }
+    .navbar a{
+        text-decoration: none;
+        color:black;
+
+    }
+    .nav{
+        display: none;
+    }
+    .nav-content{
+        display:none;
+    }
+    .dropbutton{
+        display:none;
+    }
+    .fa {
+        padding: 20px;
+        font-size: 60px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 50%;
+
+    }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+    .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar{
+        display:none;
+    }
+    .nav{
+        display: inline-block;
+    }
+    .nav-content{
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .nav-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: Menlo, serif;
+        text-align: center;
+
+    }
+    .nav:hover .nav-content {
+        display: block;
+    }
+    .dropbutton{
+        background-color: gray;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+
+    }
+    .fa {
+        padding: 10px;
+        font-size: 10px;
+        width: 20px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 50%;
+        display: block;
+        justify-content: space-evenly;
+    }
+    .fa-twitter {
+        background: #55ACEE;
+        color: white;
+    }
+    .fa-instagram {
+        background: #125688;
+        color: white;
+    }
+    .fa-snapchat-ghost {
+        background: #fffc00;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+}
+
